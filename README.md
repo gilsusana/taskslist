@@ -24,8 +24,8 @@ Proyecto basado en un ejercicio en React para el curso de Full-Stack Developer d
 ![tasksinicio](./src/assets/tasksinicio.png)
 ![taskscrear](./src/assets/taskscrear.png)
 ![taskscrear3](./src/assets/taskscrear3.png)
-![tasksactualizar](.src/assets/tasksactualizar.png)
-![tasksactualizar2](.src/assets/tasksactualizar2.png)
+![tasksactualizar](./src/assets/tasksactualizar.png)
+![tasksactualizar2](./src/assets/tasksactualizar2.png)
 
 
 ## Tecnologías
