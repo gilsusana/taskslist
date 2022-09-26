@@ -8,7 +8,7 @@
 }
 
 body {
-        background-image: url('./assets/momiji.jpg');
+    background-image: url('./assets/momiji.jpg');
     }
 
 .toDo-app {
@@ -41,11 +41,11 @@ h1 {
     outline: none;
     width: 320px;
     background: transparent;
-    color: #fff;
+    color: grey;
 }
 
 .toDo-input::placeholder {
-    color: #e2e2e2;
+    color: grey;
 }
 
 .toDo-button {
@@ -55,7 +55,7 @@ h1 {
     cursor: pointer;
     outline: none;
     background: #f94e2a;
-    color: #black;
+    color: black;
     text-transform: capitalize;
 }
 
