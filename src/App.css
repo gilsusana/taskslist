@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,400;0,900;1,700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Jost', sans-serif;
+}
+
+body {
+        background-image: url('./assets/momiji.jpg');
+    }
+
+.toDo-app {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    width: 800px;
+    min-height: 600px;
+    background: #ffffff;
+    text-align: center;
+    margin: 128px auto;
+    border-radius: 10px;
+    padding-bottom: 32px;
+}
+
+h1 {
+    margin: 32px 0;
+    color: rgba(213, 52, 52, 1);
+    font-size: 24px;
+}
+
+.toDo-form {
+    margin-bottom: 32px;
+}
+
+.toDo-input {
+    padding: 14px 32px 14px 16px;
+    border-radius: 4px 0 0 4px;
+    border: 2px solid #f94e2a;
+    outline: none;
+    width: 320px;
+    background: transparent;
+    color: #fff;
+}
+
+.toDo-input::placeholder {
+    color: #e2e2e2;
+}
+
+.toDo-button {
+    padding: 16px;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    outline: none;
+    background: #f94e2a;
+    color: #black;
+    text-transform: capitalize;
+}
+
+.toDo-input.edit {
+    border: 2px solid #EAE1E8;
+}
+
+.toDo-button.edit {
+    background: #EAE1E8;
+    padding: 16px 22px;
+}
+
+.toDo-container {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+.toDo-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 4px auto;
+    color: #fff;
+    background: #CD2829;
+    padding: 16px;
+    border-radius: 5px;
+    width: 90%;
+}
+
+.toDo-row:nth-child(6n + 1) {
+    background:#381313
+}
+
+.toDo-row:nth-child(6n + 2) {
+    background: #8E2524
+}
+
+.toDo-row:nth-child(6n + 3) {
+    background: #AF151D
+}
+
+.toDo-row:nth-child(6n + 4) {
+    background: #f94e2a
+ }
+
+ .toDo-row:nth-child(6n + 5) {
+     background: #9F1D21
+ }
+
+.icons {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.delete-icon {
+    margin-right: 5px;
+    color: #fff;
+}
+
+.edit-icon {
+    color: #fff;
+}
