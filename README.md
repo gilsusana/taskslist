@@ -66,7 +66,7 @@ Si tiene cualquier problema póngase en contacto con:
 
 ## Hoja de ruta
 
-En la primera entrega podemos agregar, editar y eliminar las tareas.
+En la primera entrega podemos agregar, editar y eliminar las tareas. En la próxima versión se pretenderá una persistencia de datos.
 
 ## Autora
 
