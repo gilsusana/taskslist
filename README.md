@@ -60,8 +60,7 @@ En Visual Studio Code:
 
 Si tiene cualquier problema póngase en contacto con: 
 
->emaildeprueba@gmail.com
-
+>susanagildeveloper@gmail.com
 ***
 
 ## Hoja de ruta
